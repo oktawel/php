@@ -8,7 +8,10 @@
 
 <body>
     <h1>Лабораоторная работа №4</h1>
-    <?php include 'PHPRead.php'; ?>    
+    <a href="CreatePage.php">Добавить студента</a>
+    <?php include 'PHPRead.php'; 
+        find_and_print_all();
+    ?>
 </body>
 
 </html>

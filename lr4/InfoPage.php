@@ -8,7 +8,7 @@
 
 <body>
     <h1>Лабораоторная работа №4</h1>
-    <?php include 'PHPInfo.php'; ?>
+    <?php include 'PHPRead.php'; ?>
     <?php print_student(find_by_id($_GET['id'])) ?>
 </body>
 
